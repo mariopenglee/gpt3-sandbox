@@ -9,7 +9,7 @@ from api import demo_web_app
 
 
 # Construct GPT object and show some examples
-gpt = GPT(engine="davinci",
+gpt = GPT(engine="text-davinci-002",
           temperature=0.5,
           max_tokens=100)
 
